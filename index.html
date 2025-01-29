@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <html lang="en"><head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+          ThreeUp Tech - Innovative Software Solutions | AI, Web &amp; Digital Marketing
+        </title>
+        <meta name="title" content="ThreeUp Tech - Innovative Software Solutions | AI, Web &amp; Digital Marketing">
+        <meta name="description" content="ThreeUp Tech delivers cutting-edge software solutions in AI, automation, web development, and digital marketing. Transform your business with our innovative technology solutions.">
+        <meta name="keywords" content="ThreeUp Tech, AI solutions, web development, digital marketing, software house, automation solutions, business technology, custom software">
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="English">
+        <meta name="author" content="ThreeUp Tech">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://threeuptech.com/">
+        <meta property="og:title" content="ThreeUp Tech - Innovative Software Solutions">
+        <meta property="og:description" content="Transform your business with cutting-edge software solutions in AI, automation, web development, and digital marketing.">
+        <meta property="og:image" content="https://threeuptech.com/logo.png">
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://threeuptech.com/">
+        <meta property="twitter:title" content="ThreeUp Tech - Innovative Software Solutions">
+        <meta property="twitter:description" content="Transform your business with cutting-edge software solutions in AI, automation, web development, and digital marketing.">
+        <link rel="icon" href="favicon.png" type="image/x-icon">
+        <link rel="canonical" href="https://threeuptech.com/">
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "ThreeUp Tech",
+            "url": "https://threeuptech.com",
+            "logo": "https://threeuptech.com/logo.png",
+            "sameAs": ["https://www.linkedin.com/company/threeuptech/"],
+            "description": "ThreeUp Tech delivers cutting-edge software solutions in AI, automation, web development, and digital marketing.",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Redding",
+              "addressRegion": "CA",
+              "addressCountry": "USA"
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "name": "AI & Automation Solutions",
+                  "description": "Leverage the power of artificial intelligence and automation to streamline your business processes."
+                },
+                {
+                  "@type": "Offer",
+                  "name": "Web Development",
+                  "description": "Custom web solutions built with modern technologies to enhance your online presence."
+                },
+                {
+                  "@type": "Offer",
+                  "name": "Digital Marketing",
+                  "description": "Strategic digital marketing solutions to boost your brand visibility and reach."
+                }
+              ]
+            },
+            "partner": [
+              {
+                "@type": "Organization",
+                "name": "Webdrvn",
+                "url": "https://webdrvn.com"
+              },
+              {
+                "@type": "Organization",
+                "url": "https://dreambigcrm.com/",
+                "name": "Dream Big CRM"
+              }
+            ]
+          }
+        </script>
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "https://threeuptech.com",
+            "name": "ThreeUp Tech",
+            "description": "Innovative Software Solutions Provider",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://threeuptech.com?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+        </script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    
+        <style>
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Inter", sans-serif;
+          }
+    
+          html {
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+          }
+    
+          body {
+            overflow-x: hidden;
+            line-height: 1.6;
+            color: #1a1a1a;
+          }
+    
+          /* Navigation */
+          .navbar {
+            background-color: black;
+            padding: 0.75rem 1.5rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+          }
+    
+          .nav-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+    
+          .logo {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+          }
+    
+          .logo-img {
+            height: 40px;
+            width: auto;
+            object-fit: contain;
+          }
+    
+          .logo-text {
+            color: white;
+            font-size: 1.25rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+          }
+    
+          .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            align-items: center;
+          }
+    
+          .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+            font-size: 0.95rem;
+          }
+    
+          .nav-links a:hover {
+            color: hsl(26, 100%, 59%);
+          }
+    
+          /* Hero Section */
+          .hero {
+            background-color: black;
+            color: white;
+            padding: 8rem 1.5rem 6rem;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+          }
+    
+          .hero-content {
+            max-width: 1200px;
+            margin: 0 auto;
+          }
+    
+          .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+          }
+    
+          .hero p {
+            font-size: 1.25rem;
+            margin-bottom: 2.5rem;
+            max-width: 600px;
+            opacity: 0.9;
+            line-height: 1.6;
+          }
+    
+          .cta-button {
+            background-image: linear-gradient(to right, darkorange , yellow);
+
+            
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+          }
+    
+          .cta-button:hover {
+            background-color: hsl(26 101% 53% / 1);
+            transform: translateY(-2px);
+          }
+    
+          /* Section Styling */
+          .section-title {
+            font-size: 2.25rem;
+            text-align: center;
+            margin-bottom: 3.5rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            position: relative;
+            padding-bottom: 1rem;
+          }
+    
+          .section-title::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background-color: #ff651f;
+            border-radius: 3px;
+          }
+    
+          /* Services Section */
+          .services {
+            padding: 6rem 1.5rem;
+            background-color: white;
+          }
+    
+          .services-content {
+            max-width: 1200px;
+            margin: 0 auto;
+          }
+    
+          .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 0 1rem;
+          }
+    
+          .service-card {
+            padding: 2.5rem;
+            border: 1px solid #e5e7eb;
+            border-radius: 1rem;
+            transition: all 0.3s ease;
+            background-color: white;
+          }
+    
+          .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+          }
+    
+          .service-icon {
+            font-size: 2.5rem;
+            color: #ff651f;
+            margin-bottom: 1.5rem;
+          }
+    
+          .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+          }
+    
+          .service-card p {
+            color: #4b5563;
+            line-height: 1.7;
+          }
+    
+          /* About Section */
+          .about {
+            padding: 6rem 1.5rem;
+            background-color: #f8fafc;
+          }
+    
+          .about-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+          }
+    
+          .about-content p {
+            max-width: 800px;
+            margin: 0 auto;
+            color: #4b5563;
+            font-size: 1.1rem;
+            line-height: 1.8;
+          }
+    
+          /* Partners Section */
+          .partners {
+            padding: 6rem 1.5rem;
+            background-color: white;
+          }
+    
+          .partners-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+          }
+    
+          .featured-partner {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 3rem;
+            margin: 2rem 0 4rem;
+          }
+    
+          .partner-link {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #1a1a1a;
+            transition: all 0.3s ease;
+            max-width: 300px;
+          }
+    
+          .partner-link:hover {
+            transform: translateY(-5px);
+          }
+    
+          .featured-partner-logo {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            margin-bottom: 1rem;
+          }
+    
+          .partner-link span {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #ff651f;
+          }
+    
+          .collaborations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 3rem;
+            align-items: center;
+            justify-items: center;
+            margin-top: 3rem;
+          }
+    
+          .collaboration-item {
+            opacity: 0.7;
+            transition: opacity 0.3s;
+          }
+    
+          .collaboration-item:hover {
+            opacity: 1;
+          }
+    
+          .collab-logo {
+            max-width: 140px;
+            height: auto;
+          }
+    
+          /* Footer */
+          .footer {
+            background-color: black;
+            color: white;
+            padding: 2rem 1.5rem;
+          }
+    
+          .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+    
+          .social-links a {
+            color: white;
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+          }
+    
+          .social-links a:hover {
+            color: #ff651f;
+          }
+    
+          /* Mobile Menu */
+          .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+          }
+    
+          /* Responsive Design */
+          @media (max-width: 1024px) {
+            .hero h1 {
+              font-size: 3rem;
+            }
+    
+            .section-title {
+              font-size: 2rem;
+            }
+          }
+    
+          @media (max-width: 768px) {
+            .mobile-menu-btn {
+              display: block;
+            }
+    
+            .nav-links {
+              display: none;
+              position: absolute;
+              top: 100%;
+              left: 0;
+              right: 0;
+              background-color: black;
+              flex-direction: column;
+              padding: 1rem;
+              text-align: center;
+            }
+    
+            .nav-links.active {
+              display: flex;
+            }
+    
+            .hero {
+              padding-top: 6rem;
+            }
+    
+            .hero h1 {
+              font-size: 2.5rem;
+            }
+    
+            .hero p {
+              font-size: 1.1rem;
+            }
+    
+            .services-grid {
+              grid-template-columns: 1fr;
+              gap: 1.5rem;
+            }
+    
+            .featured-partner {
+              gap: 2rem;
+            }
+    
+            .collaborations-grid {
+              grid-template-columns: repeat(2, 1fr);
+              gap: 2rem;
+            }
+    
+            .collab-logo {
+              max-width: 120px;
+            }
+          }
+    
+          @media (max-width: 480px) {
+            .hero h1 {
+              font-size: 2rem;
+            }
+    
+            .section-title {
+              font-size: 1.75rem;
+              margin-bottom: 2.5rem;
+            }
+    
+            .service-card {
+              padding: 1.5rem;
+            }
+    
+            .featured-partner {
+              gap: 1.5rem;
+            }
+    
+            .partner-link {
+              max-width: 200px;
+            }
+    
+            .collab-logo {
+              max-width: 100px;
+            }
+    
+            .footer-content {
+              flex-direction: column;
+              gap: 1rem;
+              text-align: center;
+            }
+          }
+        </style>
+      </head>
+      <body>
+        <!-- Navigation -->
+        <nav class="navbar">
+          <div class="nav-content">
+            <a href="#hero" class="logo">
+              <img src="https://threeuptech.com/logo.png" alt="ThreeUp Tech Logo" class="logo-img">
+              <span class="logo-text">ThreeUp Tech</span>
+            </a>
+            <button class="mobile-menu-btn">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links">
+              <a href="#services">Services</a>
+              <a href="#about">About</a>
+            
+              <a href="" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+    
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+          <div class="hero-content">
+            <h1>Innovate. Transform.<br>Succeed.</h1>
+            <p>
+              Empowering businesses with cutting-edge software solutions in AI,
+              automation, and digital marketing.
+            </p>
+            <button class="cta-button" onclick="window.location.href='#services'">
+              Get Started
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        </section>
+    
+        <!-- Services Section -->
+        <section id="services" class="services">
+          <div class="services-content">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+              <div class="service-card">
+                <i class="fas fa-robot service-icon"></i>
+                <h3>AI &amp; Automation</h3>
+                <p>
+                  Leverage the power of artificial intelligence and automation to
+                  streamline your business processes.
+                </p>
+              </div>
+              <div class="service-card" style="transform: translateY(0px);">
+                <i class="fas fa-laptop-code service-icon"></i>
+                <h3>Web Development</h3>
+                <p>
+                  Custom web solutions built with modern technologies to enhance
+                  your online presence.
+                </p>
+              </div>
+              <div class="service-card">
+                <i class="fas fa-chart-line service-icon"></i>
+                <h3>Digital Marketing</h3>
+                <p>
+                  Strategic digital marketing solutions to boost your brand
+                  visibility and reach.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <!-- About Section -->
+        <section id="about" class="about">
+          <div class="about-content">
+            <h2 class="section-title">About ThreeUp Tech</h2>
+            <p>
+              We are a forward-thinking IT services provider committed to delivering
+              innovative solutions that fuel business growth. Our expert team
+              combines technical excellence with creative problem-solving to empower
+              organizations in the digital age.
+            </p>
+          </div>
+        </section>
+    
+        <!-- Partners Section -->
+        <section class="partners">
+          <div class="partners-content">
+            <h2 class="section-title">Featured Partners</h2>
+            <div class="featured-partner">
+              
+              <div class="service-card" style="transform: translateY(0px);">
+              <a href="https://webdrvn.com" target="_blank" class="partner-link">
+                <img src="https://threeuptech.com/webdrvn-logo.png" alt="Webdrvn Logo" class="featured-partner-logo">
+              </a>
+            </div>
+              <div class="service-card" style="transform: translateY(0px);">
+              <a href="https://dreambigcrm.com/" target="_blank" class="partner-link">
+                <img src="https://threeuptech.com/dreambigcrm.png" alt="Dream Big CRM Logo" class="featured-partner-logo">
+              </a>
+            </div>
+            <div class="service-card" style="transform: translateY(0px);">
+              <a href="https://openai.com/" target="_blank" class="partner-link">
+                <img src="data:image/png;base64,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" alt="Open AI" class="featured-partner-logo">
+              </a>
+            </div>
+            </div>
+    
+            <h2 class="section-title">Collaborations</h2>
+            <div class="collaborations-grid">
+              <div class="collaboration-item">
+                <a href="https://github.com/" target="_blank" class="collab-logo">
+                <img src="https://threeuptech.com/github.png" alt="Github Logo" class="collab-logo">
+              </a>
+              </div>
+              <div class="collaboration-item">
+                <a href="https://www.google.com/" target="_blank" class="collab-logo">
+                <img src="https://threeuptech.com/google-logo.png" alt="Google Logo" class="collab-logo">
+              </a>
+              </div>
+              <div class="collaboration-item">
+                <a href="https://about.meta.com/" target="_blank" class="collab-logo">
+                <img src="https://threeuptech.com/meta-logo.png" alt="Meta Logo" class="collab-logo">
+              </a>
+              </div>
+              <div class="collaboration-item">
+                <a href="https://www.microsoft.com/en-pk/" target="_blank" class="collab-logo">
+                <img src="https://threeuptech.com/microsoft-logo.png" alt="Microsoft Logo" class="collab-logo">
+              </a>
+              </div>
+              <div class="collaboration-item">
+                <a href="https://aws.amazon.com/?nc2=h_lg"  target="_blank" class="collab-logo">
+                  <img src="https://threeuptech.com/aws.png" alt="aws" class="collab-logo">
+                </a>
+                
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="footer-content">
+            <div>© 2025 ThreeUp Tech. All rights reserved.</div>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/company/threeuptech" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </footer>
+    
+        <script>
+          // Mobile Menu Toggle
+          const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
+          const navLinks = document.querySelector(".nav-links");
+    
+          mobileMenuBtn.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+          });
+    
+          // Close mobile menu when clicking outside
+          document.addEventListener("click", (e) => {
+            if (!e.target.closest(".navbar")) {
+              navLinks.classList.remove("active");
+            }
+          });
+    
+          // Smooth scroll for navigation links
+          document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+            anchor.addEventListener("click", function (e) {
+              e.preventDefault();
+              const target = document.querySelector(this.getAttribute("href"));
+              if (target) {
+                target.scrollIntoView({
+                  behavior: "smooth",
+                });
+                navLinks.classList.remove("active");
+              }
+            });
+          });
+    
+          // Service card hover animation
+          const serviceCards = document.querySelectorAll(".service-card");
+          serviceCards.forEach((card) => {
+            card.addEventListener("mouseenter", () => {
+              card.style.transform = "translateY(-5px)";
+            });
+            card.addEventListener("mouseleave", () => {
+              card.style.transform = "translateY(0)";
+            });
+          });
+        </script>
+      
+    
+    </body></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

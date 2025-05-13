@@ -1,12 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-  <p>hello pakistan</p>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #0F1111;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-left {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .logo {
+            width: 100px;
+        }
+
+        .address {
+            cursor: pointer;
+        }
+
+        .address span {
+            display: block;
+            font-size: 0.8rem;
+        }
+
+        .address span:first-child {
+            color: #ccc;
+        }
+
+        .address span:last-child {
+            font-weight: bold;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        .search-bar {
+            background-color: #232f3e;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .search-input {
+            width: 600px;
+            padding: 10px;
+            border-radius: 5px 0 0 5px;
+            border: none;
+        }
+
+        .search-button {
+            background-color: #febd69;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+
+        .hero-banner {
+            background-image: url('https://m.media-amazon.com/images/I/81i7cyB22RL._SX3000_.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            position: relative;
+            margin-top: 10px;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            padding: 20px;
+            gap: 20px;
+            position: relative;
+            z-index: 1;
+            background: white;
+        }
+
+        .sidebar {
+            background-color: #f3f3f3;
+            padding: 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: #111;
+            text-decoration: none;
+            padding: 5px 0;
+        }
+
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+
+        .prime-banner {
+            background-color: #e3e6e6;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="amazon-logo.png" alt="Amazon Logo" class="logo">
+            <div class="address">
+                <span>Deliver to</span>
+                <span>Las Vegas 89120</span>
+            </div>
+        </div>
+        
+        <div class="nav-right">
+            <a href="#" class="nav-link">Account & Lists</a>
+            <a href="#" class="nav-link">Returns & Orders</a>
+            <a href="#" class="nav-link">Cart</a>
+        </div>
+    </nav>
+
+    <div class="search-bar">
+        <input type="text" class="search-input" placeholder="Search Amazon">
+        <button class="search-button">Search</button>
+    </div>
+
+    <div class="hero-banner">
+         <div class="main-content">
+        <div class="sidebar">
+            <a href="#">All</a>
+            <a href="#">Best Sellers</a>
+            <a href="#">Amazon Basics</a>
+            <a href="#">New Releases</a>
+            <a href="#">Prime</a>
+            <a href="#">Gift Cards</a>
+            <a href="#">Groceries</a>
+        </div>
+        <div class="content">
+            <div class="prime-banner">
+                <h2>Prime Free Trial Alert</h2>
+                <p>Get 30 days of free shipping</p>
+                <button>Try Prime</button>
+            </div>
+    </div>
+
+   
+
+        
+
+            <div class="product-grid">
+                <h3>Today's Deals</h3>
+                <!-- Product cards would go here -->
+            </div>
+        </div>
+    </div>
+</body>
 </html>
- 
